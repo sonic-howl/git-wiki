@@ -1,16 +1,16 @@
-## Electronics Resources
-##### Where to get started?
+# Electronics Resources
+## Where to get started?
 
 If you only could access one resource, it should be [sparkfun](/sparkfun):
 
 https://www.sparkfun.com/engineering_essentials
 
-#### Electronics Journey, Level 1: *Sparky*
+## Electronics Journey, Level 1: *Sparky*
 
 Terminology:
   - Voltage, Current, Power, Resistance
 
-##### Voltage
+### Voltage
 ```
 SI Symbol: E
 SI Unit  : Volt ( V )
@@ -22,7 +22,7 @@ SI Unit  : Volt ( V )
 - Determines how much work each electron can do.
 
 
-##### Current
+### Current
 ```
 SI Symbol: I
 SI Unit  : Ampere ( A )
@@ -32,7 +32,7 @@ SI Unit  : Ampere ( A )
 - A measure of the amount of electrons passing a given point
 - Determines 
 
-##### Power
+### Power
 ```
 SI Symbol: P
 SI Unit  : Watt ( W )
@@ -54,6 +54,6 @@ Voltage = Resistance * Amperage
 Watt = Amp *
 
 
-#### Do you want to know more?:  
+## Do you want to know more?:  
 https://learn.sparkfun.com/tutorials/what-is-electricity/all - Electricity, from a physics perspective
 https://www.sparkfun.com/engineering_essentials - *Principia Electronica*
