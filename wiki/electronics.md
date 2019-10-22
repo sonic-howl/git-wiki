@@ -10,7 +10,7 @@ https://www.sparkfun.com/engineering_essentials
 Terminology:
   - Voltage, Current, Power, Resistance
 
-### Voltage
+### [Voltage](voltage)
 ```
 SI Symbol: E
 SI Unit  : Volt ( V )
@@ -22,7 +22,7 @@ SI Unit  : Volt ( V )
 - Determines how much work each electron can do.
 
 
-### Current
+### [Current](current)
 ```
 SI Symbol: I
 SI Unit  : Ampere ( A )
@@ -32,7 +32,7 @@ SI Unit  : Ampere ( A )
 - A measure of the amount of electrons passing a given point
 - Determines 
 
-### Power
+### [Power](power)
 ```
 SI Symbol: P
 SI Unit  : Watt ( W )
@@ -45,7 +45,7 @@ SI Unit  : Watt ( W )
 ---
 
 
-- Ohm's Law
+- [Ohm's Law](ohms-law)
 
 Voltage = Resistance * Amperage 
 
