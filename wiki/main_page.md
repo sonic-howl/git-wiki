@@ -9,10 +9,10 @@ redirect_from: "/"
 [Electronics](electronics)
 
 ## Pages Needing to be Made
-[How a wiki works](how-our-wiki-works)
-[How our wiki works](how-our-wiki-works)
-[pneumatics](pneumatics)
-*Add things here!*
+[How a wiki works](how-our-wiki-works)  
+[How our wiki works](how-our-wiki-works)  
+[pneumatics](pneumatics)  
+*Add things here!*  
 
 
 ## External Links
