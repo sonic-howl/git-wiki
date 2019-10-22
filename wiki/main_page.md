@@ -2,7 +2,8 @@
 redirect_from: "/"
 ---
 
-# Welcome to the Sonic Howl Knowledge Base / wiki
+# Welcome to sh-wiki
+*The Sonic Howl Knowledge Base / wiki*
 
 
 ## Pages Under Construction
