@@ -7,7 +7,7 @@ redirect_from: "/"
 ## What is a Wiki?
 
 ## Pages Under Construction
-[Electronics](/wiki/electronics)
+[Electronics](electronics)
 
 ## External Links
 [git-wiki Instructions and user Guide](http://www.drassil.org/git-wiki/main_page)
