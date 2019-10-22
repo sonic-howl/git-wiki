@@ -5,7 +5,6 @@ redirect_from: "/"
 # Welcome to sh-wiki
 *The Sonic Howl Knowledge Base / wiki*
 
-
 ## Pages Under Construction
 [Electronics](electronics)
 
