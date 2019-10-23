@@ -4,3 +4,5 @@
 
 Password:
 $Robots&in#SPACE!!
+
+[FRC link with prior years](https://www.firstinspires.org/resource-library/frc/archived-game-documentation)
