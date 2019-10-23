@@ -1,0 +1,328 @@
+#Kelsey's Notes from End of 2018/2019 
+
+- 3985 Innovations
+  - Pit Management Facility
+    - Pit Server
+      - Features
+        - Telemetry database
+        - Log Capture
+          - Theory
+            - 1. DS to USB via ps syncs all logs to usb stick
+            - 2. Sneakernet to PMF usb port
+            - 3. Process triggered
+            - Diff tool gets logs which have not been processed before
+            - station shows list of logs/matches found
+            - "Enter Team Number"
+            - For "Enter Battery Number"
+            - newest logs jump dashboard in grafana
+            - drilldown log viewer
+            - 
+      - Stack
+        - Telemetry
+          - InfluxDB
+          - Grafana
+          - Kapacitor
+          - Chronograf
+        - Networking
+          - ddclient (updates dns-o-matic)
+          - miniupnpc
+- Software
+  - Electrical
+    - Fritzing
+      - roborio.fzpz (place into $FRITZING-DIRECTORY\fritzing-parts\user
+        "http://forum.fritzing.org/t/creating-custom-parts-for-robotics-competition/5052"
+- Equipment
+  - Software Test Bench
+    "Requested by Mr G"
+    - Setup
+      - Powerpole on all connections
+    - Goals
+      - Be able to play with each type of controller 
+      - Be able to move around board or subassembly with sensors mounted
+    - Equipment
+      - RoboRio
+      - PDP
+      - Power Source (with breaker)
+      - Limit Switches
+      - Motor Controllers
+        - 1x PWM Controller
+        - CAN
+          - Victor SPX
+          - Talon SRX 
+          - Talon
+      - Limit Switches
+        - Broken out to both DIO and SRX
+        - NLT 2, possibly 4 (2x DIO, 2x SRX)
+      - Ancil
+        - Motor with encoder
+        - Seat motor with DIO port 
+        - Gyro
+        - Accelerometer
+        - Edge Sensors
+        - Reed Switch
+      - Servos & actuators
+        - 1 x generic servo
+        - 1 x Solenoid
+      - 
+  - Datasheets
+    - Gyroscope
+      - Analog Devices ADXRS450
+        "Spec sheet: https://www.analog.com/media/en/technical-documentation/data-sheets/ADXRS450.pdf
+        Tutorial  : http://files.andymark.com/ADI_FRC_GyroAccel_Board_LV_2016.pdf"
+  - Organization
+    - Model paint to mark tools
+  - Fasteners & Hardware
+    - Torx Flat Head
+      "https://www.mcmaster.com/torx-screws"
+    - 
+    - Kits
+      - Extension & Compression Springs
+        "https://spaenaur.com/catalog/A109/#zoom=z"
+      - Lynch Pins
+        "https://spaenaur.com/catalog/A89/#zoom=z"
+      - Nuts, Standard Hex
+        "https://spaenaur.com/catalog/A60/"
+      - Nuts, Metric
+        "https://spaenaur.com/catalog/A61/"
+      - Steel Flat Washers
+        "https://spaenaur.com/catalog/A72/"
+      - Nord-Lock Washers
+        "https://spaenaur.com/catalog/A80/"
+      - Clevis Pins
+        "https://spaenaur.com/catalog/A90/"
+      - Cotter pins
+        "https://spaenaur.com/catalog/A88/"
+  - Tools
+    - Electronics
+      - Testing
+        - https://www.andymark.com/products/thrifty-throttle-3
+        - DC Ammeter 
+          "https://www.amazon.ca/UT204-Auto-Ranging-Digital-Handheld-Multimeter/dp/B00FEBSJ58/ref=pd_sbs_469_4/144-2419463-6816502?_encoding=UTF8&pd_rd_i=B00FEBSJ58&pd_rd_r=2198362d-6ae1-11e9-b80c-09dbc8d3b34b&pd_rd_w=cKV74&pd_rd_wg=5ZaAH&pf_rd_p=5dcda75b-8643-4da3-9bb1-5c0233790500&pf_rd_r=HYYWJKQM8Z8DB59S9MBA&psc=1&refRID=HYYWJKQM8Z8DB59S9MBA"
+        - 
+        - Battery Load Tester
+        - Back Probe Kit
+          "https://www.amazon.ca/SG-Tool-Aid-23500-Probe/dp/B00G9C3RSU/ref=sr_1_1?keywords=back+probe&qid=1556584435&s=gateway&sr=8-1"
+        - Test Leads
+          "https://www.amazon.ca/Hand-Tools-1129-Retractable-Test/dp/B000KIVOU2/ref=pd_sim_328_4/144-2419463-6816502?_encoding=UTF8&pd_rd_i=B000KIVOU2&pd_rd_r=83e56cc8-6ae0-11e9-bef6-397a2872612d&pd_rd_w=MX5pj&pd_rd_wg=Xsa6T&pf_rd_p=29a85b27-a36a-4f8d-94ca-61aa962c5f39&pf_rd_r=W6RYY12R77M66ZT70KBP&psc=1&refRID=W6RYY12R77M66ZT70KBP
+          "
+      - Soldering Kit
+        - Soldering Iron
+          "https://www.amazon.ca/Soldering-station-portable-Temperature-Controller/dp/B075PDNTMK/ref=sr_1_33?keywords=soldering&qid=1555380229&s=gateway&sr=8-33"
+        - Stand + Solder reel
+          "https://www.amazon.ca/Delcast-SL-WST-Soldering-Station-Integrated/dp/B00LXL6AHM/ref=sr_1_16?keywords=soldering+station&qid=1555380269&s=gateway&sr=8-16"
+        - Fume Extractor
+          "https://www.amazon.ca/Aoyue-Benchtop-Solder-Smoke-Absorber/dp/B001RLZGKK/ref=sr_1_3?crid=16NS5SJEPMU2&keywords=solder+fume+extractor&qid=1555380372&refinements=p_85%3A5690392011&rnid=5690384011&rps=1&s=hi&sprefix=solder+fume+%2Ctools%2C168&sr=1-3"
+        - Solder Sucker
+          "https://www.amazon.ca/Plunger-Desoldering-Solder-Locking-Removal/dp/B07J3ZDVBC/ref=sr_1_11?keywords=solder+sucker&qid=1555380311&s=hi&sr=1-11"
+      - Crimping
+        - Automotive Terminals (Red/Blue/Yellow)
+          "https://www.amazon.ca/Titan-11477-Ratcheting-Terminal-Crimper/dp/B0069TRKJ0/ref=pd_sim_328_5/144-2419463-6816502?_encoding=UTF8&pd_rd_i=B0069TRKJ0&pd_rd_r=83e56cc8-6ae0-11e9-bef6-397a2872612d&pd_rd_w=MX5pj&pd_rd_wg=Xsa6T&pf_rd_p=29a85b27-a36a-4f8d-94ca-61aa962c5f39&pf_rd_r=W6RYY12R77M66ZT70KBP&psc=1&refRID=W6RYY12R77M66ZT70KBP
+          Red: 22-18AWG DIN 0.5-1.0mm
+          Blue: 16-14AWG DIN 1.5-2.5mm
+          Yellow: 12-10AWG DIN 4-6mm"
+    - Machining
+      - Measuring
+        - https://www.amazon.ca/hz/wishlist/ls/QH4YPV638RHN?&sort=default
+      - Tooling
+        - Insert Machining
+          - 2" End Mill, R8 Shank, Triangular inserts
+            "https://www.amazon.ca/Accusize-Carbide-Indexable-Inserts-0046-0916/dp/B00HQMXSM2/ref=pd_bxgy_60_img_2/144-2419463-6816502?_encoding=UTF8&pd_rd_i=B00HQMXSM2&pd_rd_r=c3d7a219-5fec-11e9-a5e3-97ef2fc066fe&pd_rd_w=P17kR&pd_rd_wg=WbH1n&pf_rd_p=88f05819-6e09-4eaf-970e-fd581a2a2708&pf_rd_r=B9TJDS1P5N8CDBNZ23H2&psc=1&refRID=B9TJDS1P5N8CDBNZ23H2"
+          - 2" end mill
+            "https://www.amazon.ca/Accusize-Carbide-Indexable-Inserts-0046-0915/dp/B01AIJ9Y5O/ref=sr_1_24?keywords=carbide+end+mill&qid=1555380551&refinements=p_85%3A5690392011&rnid=5690384011&rps=1&s=gateway&sr=8-24"
+          - 3/4" end mill
+            "https://www.amazon.ca/Accusize-Indexable-End-Mills-0046-0912/dp/B00RW6ZLDQ/ref=pd_bxgy_469_img_3/144-2419463-6816502?_encoding=UTF8&pd_rd_i=B00RW6ZLDQ&pd_rd_r=de229702-5fec-11e9-aa61-a910d2132542&pd_rd_w=kBEFG&pd_rd_wg=5Fa3w&pf_rd_p=88f05819-6e09-4eaf-970e-fd581a2a2708&pf_rd_r=2E9M8GYK9MZNBBXVSYD4&psc=1&refRID=2E9M8GYK9MZNBBXVSYD4"
+          - Tin Coated Carbide Inserts
+            "https://www.amazon.ca/Accusize-TPG322-Carbide-Inserts-2127-1028x10/dp/B01F4AYLJ6/ref=pd_bxgy_60_img_3/144-2419463-6816502?_encoding=UTF8&pd_rd_i=B01F4AYLJ6&pd_rd_r=f8b765c4-5fec-11e9-8078-db1490754bb9&pd_rd_w=QgDSu&pd_rd_wg=jZ8wJ&pf_rd_p=88f05819-6e09-4eaf-970e-fd581a2a2708&pf_rd_r=YD8XDDRTEEER0940J91R&psc=1&refRID=YD8XDDRTEEER0940J91R"
+        - Fly Cutter Set
+          "https://www.amazon.ca/Steelex-M1096-Cutter-Tool-Bits/dp/B005W1BXZS/ref=sxbs_sxwds-stvp?keywords=face+mill&pd_rd_i=B005W1BXZS&pd_rd_r=90c74647-8549-41c7-8a59-d30ad5691539&pd_rd_w=2Fsaz&pd_rd_wg=zBorL&pf_rd_p=2be78364-2225-4104-8cb4-13e69d670ea9&pf_rd_r=G1ZCJ3MXZDTYW3Y75Q8K&qid=1555380764&s=industrial"
+- Roles
+  - Competitive Intelligence
+    - https://www.chiefdelphi.com/t/your-scouts-hate-scouting-and-your-data-is-bad-heres-why/352340
+  - Mechanical
+    - Differential
+      - Automotive Differential Drive
+        "https://www.youtube.com/watch?v=yYAw79386WI"
+  - Machining
+    - Precision 
+      - AvE Video - https://www.youtube.com/watch?v=e5i0r0-dd7I
+    - Training Program
+      - Posters & Training Aides
+        - Drill Index
+        - Tap to Drill Size Charts
+        - Fastener Names Chart
+        - Tool Names Chart
+      - Knowledge
+        - SAE vs Metric
+        - 
+      - Skills
+        - Metal Bender
+        - Drill Press
+        - Hand Tapping + Die use
+        - Band Saw
+        - Bench Grinder
+        - Mill
+          - Making Square
+        - Lathe
+  - Electrical 
+    - Training Program
+      - Posters & Training Aides
+        - Motor Chart
+        - Terminal installation instructions
+        - Good vs bad connections/etc pictures
+      - Knowledge
+        - Universal
+          - Electrical Laws
+            - Ohm's Law
+            - Watt's Power Law
+            - Paralell vs Series
+          - DC Electricity Basics
+            - What is Electricity?
+            - Current vs Voltage
+            - 
+          - Use of a voltmetre
+          - Use of an ohmmetre
+          - Wiring Diagrams in Fritzing
+        - FRC
+          - Rule Sections
+            - 10.6 Motors & Actuators
+              - [R34] Allowable Motors & Actuators. ONLY:
+                - DC Motors: as per list
+                - Electrical solenoid actuators
+                  - <= 1 in. (nominal) stroke; AND
+                  - rated <= 10 W continuous duty @ 12 VDC
+                - Hard drive motors or fans:
+                  - included in any Kickoff Kit; OR
+                  - distributed via FIRST Choice; OR
+                  - part of a legal motor controller (including manufacturer provided accessories); OR
+                  - part of a legal COTS computing device
+                - Factory installed vibration and autofocus motors resident in COTS computing devices (e.g. rumble motor in a smartphone)
+                - PWM COTS servos with a retail cost < $75. 
+                - Motors integral to a COTS sensor (e.g. LIDAR, scanning sonar, etc.), provided the device is not modified except to facilitate mounting
+                - One (1) compressor compliant with R86 and used to compress air for the ROBOT’S pneumatic system
+              - [R35] Allowable Motor Modifications List
+              - [R36] 
+          - Battery Rules
+          - Radio Wiring
+            - First VRM
+      - Skills
+        - Measuring
+        - Researching
+          - Reading datasheets
+          - Reading Schmeatics
+        - Terminations
+        - Soldering
+        - Troubleshooting
+        - Design
+    - Build Season Duties
+      - Wiring Diagram in fritzing
+      - 
+    - Comp Prep Tasks
+      - Supplies
+        - Superglue
+          - srx encoders, other connections
+        - Tiny Zipties
+        - Reliable low guage connector?
+        - 
+      - 3d print
+        - Battery Covers
+          "https://www.thingiverse.com/thing:675138"
+        - Lifecam mount
+          "https://www.thingiverse.com/thing:1494829"
+        - RoboRio Pin Covers
+          "https://www.thingiverse.com/thing:660244"
+        - RoboRio Mount
+          "https://www.thingiverse.com/thing:3092145"
+        - RoboRio Mount with cable routing
+          "https://www.thingiverse.com/thing:656030"
+        - Another Rio Mount 
+          "https://www.thingiverse.com/thing:641856"
+      - Print
+        - SRX
+          - Troubleshooting Guide, pg 39-42
+            "https://www.ctr-electronics.com/Talon%20SRX%20User's%20Guide.pdf"
+    - Season Prep Tasks
+      - Wire Spool Rack Build
+        - Build a wall mounted or freestanding rack to hold wires. Look at different designs for ideas, at the link below
+          "https://www.globalindustrial.ca/c/storage/bulk-rack/reel"
+        - Mobile? Freestanding?
+        - Mark wire reels with very easy to read labels. Include size in AWG, and what breaker FRC rules specify for it!
+      - Drilling Templates
+        - Talon / Victor Motor Controllers
+        - PDP
+      - roboRIO Mount 3D printed
+    - Devices
+      - Rio
+        - Pin Covers
+          "https://www.thingiverse.com/thing:660244"
+      - Speed Controllers
+        - Talon SRX
+          - Acc
+            - 2x5 1.27mm keyed IDC FC Connector
+              "0.05 in | https://www.amazon.ca/s?k=1.27mm+2x5+idc+fc+connector&ref=nb_sb_noss | https://www.aliexpress.com/item/4-Pcs-0-050-1-27mm-10-Pin-dual-Row-IDC-Connector-2x5-P-10-position/32756971526.html?spm=a2g0s.13010208.99999999.259.72a13c00YPxt3i"
+            - 10 strand flat 28 AWG ribbon cable
+              "https://www.aliexpress.com/item/5m-lot-1-27mm-Spacing-Pitch-6-8-10-12-14-16-20-26-34-40/32841464043.html?spm=2114.search0104.3.9.687d29bb2dAp4b&ws_ab_test=searchweb0_0,searchweb201602_1_10065_10068_10130_10547_319_10059_10884_317_10548_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536_10902,searchweb201603_51,ppcSwitch_0&algo_expid=3fef4049-f189-4516-9665-681d0e472417-1&algo_pvid=3fef4049-f189-4516-9665-681d0e472417&transAbTest=ae803_4"
+            - 3d print Breakout board holder
+              "https://www.thingiverse.com/thing:660450"
+          - Specifications
+            - Brushed DC motors only
+            - Direct Semnsor Input of limit switches into ribbon cable
+            - PWM, CAN, SPI, USART (serial)
+            - 6-28VDC Operation
+          - Documentation
+            - Info Sheet
+              "http://www.ctr-electronics.com/downloads/pdf/Victor-SP-Talon-SRX-Info-Sheet.pdf"
+            - Software Reference Manual
+              "https://www.ctr-electronics.com/downloads/pdf/Talon%20SRX%20Software%20Reference%20Manual-4.pdf"
+      - Troubleshooting - Status Lights
+        "https://wpilib.screenstepslive.com/s/currentCS/m/troubleshooting/l/599674-status-light-quick-reference"
+      - Servomotors
+        - Restrictions
+          - Governed by R34
+          - Must be less than $75
+        - 
+    - Interconnecton
+      - Guages
+        - Chief Delphi post regarding wire sizing - downstream of motor controller is unregulated?
+          "https://www.chiefdelphi.com/t/quick-question-probably-asked-a-thousand-times/50475/8"
+      - Terminals & Connectors
+        - 10-20 AWG | 15 / 30 / 45 Ampere (General Connections)
+          - Anderson Powerpole
+            - Theory of Operation
+              "https://powerwerx.com/help/powerpole-connectors"
+            - Retention Clips
+              "https://powerwerx.com/powerpole-connector-retention-clip"
+            - Coloured Housings
+              "https://powerwerx.com/anderson-powerpole-colored-housings"
+            - Roll Pins
+              "https://powerwerx.com/roll-pins-15-30-45-amp-powerpole-housings"
+            - Special Fingerproof Housings
+              "https://powerwerx.com/anderson-power-fingerproof-pp15-45-housings"
+- Advanced
+  - Deep Dives
+    - Einstein Report (only 30 pages)
+      "https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/technical-resources/2017/2012-einstein-investigation-report.pdf"
+    - 
+  - RoboRIO Troubleshooting
+    - User accounts & SSH
+      "https://wpilib.screenstepslive.com/s/currentCS/m/cs_hardware/l/286926-roborio-user-accounts-and-ssh"
+    - Brownouts
+      "https://wpilib.screenstepslive.com/s/currentCS/m/cs_hardware/l/289498-roborio-brownout-and-understanding-current-draw"
+      - Voltage Trigger - 6.8V
+      - When the voltage drops below 6.8V, the controller will enter the brownout protection state. The following indicators will show that this condition has occurred:
+  - Networking
+    - "The bandwidth cap on the field is 7 Megabits/second"
+      "https://wpilib.screenstepslive.com/s/currentCS/m/troubleshooting/l/144992-measuring-bandwidth-usage"
+    - RoboRio Web Configuration Page
+      "https://wpilib.screenstepslive.com/s/currentCS/m/24166/l/262266-roborio-webdashboard
+      "
+      - To open the web dashboard, open a web browser and enter the address of the roboRIO into the address bar (172.22.11.2 for USB, or "roboRIO-####-FRC.local where #### is your team number, with no leading zeroes, for either interface). See this document for more details about mDNS and roboRIO networking: RoboRIO Networking
+  - Telemetry
+    - Measuring Bandwidth Usage
+      - FIRST Advises to use wireshark/winpcap
+        - Can we get per process using telegraf? Even if not, the eth interface should == the wireless side 
+    - Drive Station Log Viewer
+      "https://wpilib.screenstepslive.com/s/currentCS/m/troubleshooting/l/599678-driver-station-log-file-viewer"
+    - PDP Current Monitoring
+      - https://wpilib.screenstepslive.com/s/currentCS/m/cpp/l/599692-power-distribution-panel
+- Inbox
+  - Rapid Prototyping https://www.cs.cmu.edu/~rapidproto/mechanisms/chpt6.html
