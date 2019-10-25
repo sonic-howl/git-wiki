@@ -1,4 +1,13 @@
-# Electronics Resources
+# Resources for Learning about Electronics
+
+## Introduction
+
+This page will talk about resources for learning about electronics in general. This information will be able to apply to all your future interactions with the modern world - with a solid foundation to better understand the technologies which built that world.
+
+It is also useful for [FRC](frc), which is likely what brought us together here.
+
+*If your main purpose here is to look for reference materials for using [FRC](frc) equpment ( such as motor controllers, pneumatics, and motors, with or without the roborio ) specifically; visit the page [FRC Electronics Equipment](building-electronics-with-frc-equipment) for guides and reference materials.*
+
 ## Where to get started?
 
 Before we can talk intelligently about using electricity, we need a common language to speak in. 
