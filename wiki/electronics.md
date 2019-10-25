@@ -69,10 +69,20 @@ SI Unit  : Ampere ( A )
 ```
 SI Symbol: P
 SI Unit  : Watt ( W )
+Formulae : 
+ - I * E = P
+ aka
+ - V * A * W
+ aka
+ - Voltage * Current = Wattage
+ aka 
+ - Volts * Amps = Watts
+ 
 ```
->"Electromotive Force"
-- "Electrical Pressure"
-- Easy to measure
+>"The amount of work you can do is a combination of how many electrons there are, and how hard they are pushing."
+
+- Calculated by combing the [Voltage](voltage) with the [Current](current).
+- 
 
 
 ---
