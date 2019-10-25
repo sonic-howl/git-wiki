@@ -88,3 +88,16 @@ Watt = Amp *
 
 
 ## Do you want to know more?:  
+
+To learn more about the PHYSICS of electricity:
+- https://learn.sparkfun.com/tutorials/what-is-electricity/all
+
+To learn more about electronics projects in general:
+- https://www.sparkfun.com/engineering_essentials
+- https://learn.adafruit.com/
+
+To find cool projects:
+- https://hackaday.com/
+
+Free, Extremely Advanced, University Level Courses & Resources:
+- https://www.edx.org/learn/electronics
