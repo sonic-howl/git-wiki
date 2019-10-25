@@ -40,10 +40,40 @@ Free, Extremely Advanced, University Level Courses & Resources:
 
 ## Electronics Journey, Level 1: *Sparky*
 
-Terminology:
+### Terminology:
   - Voltage, Current, Power, Resistance
 
-### [Voltage](voltage)
+#### [Resistance](resistance)
+```
+SI Symbol: R
+SI Unit  : Ohm ( Ω )
+```
+- A measure of how 'hard' an electron must 'push' to move through a material 
+- Sort of 'friction' for electrons
+- Materials with very low [resistance](https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance) pass electricity easily, and are known as [conductors](https://en.wikipedia.org/wiki/Electrical_conductor)
+- A measure of how much of the energy in the electrons is converted to heat in a conductor
+
+
+#### [Conductors](conductors)
+- Conductors are the term for materials which have low [resistance](resistance) to electrical flow.
+- All materials will conduct electricity, given the proper conditions.
+- Conductors refer to materials which are chosen to intentionally conduct electricity due to their properties.
+- Typically, gold is known as the best conductor you would run into, followed by silver and copper.
+- Most metals conduct electricity, but are poor conductors compared to copper.
+- Salt water, Metals, Some gasses, and human flesh are all fairly good conductors.
+
+[simple wikipedia](https://simple.wikipedia.org/wiki/Electrical_conductor)
+[wikipedia](https://en.wikipedia.org/wiki/Electrical_conductor)
+
+#### [Insulators](insulators)
+- Insulators are materials that have high [resistance](resistance) to electricity.
+- Air, Ceramics, Wood, and Pure water, and human skin- are all usually known as [insulators](insulators) since they conduct electricity poorly.
+
+[simple wikipedia](https://simple.wikipedia.org/wiki/Insulator_(electricity))
+[wikipedia](https://en.wikipedia.org/wiki/Insulator_(electricity))
+
+
+#### [Voltage](voltage)
 ```
 SI Symbol: E
 SI Unit  : Volt ( V )
@@ -53,19 +83,22 @@ SI Unit  : Volt ( V )
 - Measure of Potential Energy
 - A Measure of energy difference
 - Determines how much work each electron can do.
+- Determines how much insulation a conductor must have to be safe to touch.
 
 
-### [Current](current)
+#### [Current](current)
 ```
 SI Symbol: I
 SI Unit  : Ampere ( A )
 ```
 > How many electrons are there?
 
-- A measure of the amount of electrons passing a given point
-- Determines 
+- A measure of the amount of electrons passing a given point per second.
+- Determines how thick a conductor must be before it will start to get hot.
 
-### [Power](power)
+
+
+#### [Power](power)
 ```
 SI Symbol: P
 SI Unit  : Watt ( W )
@@ -86,9 +119,16 @@ Formulae :
 
 
 ---
+## Basic Laws of how Electricity Behaves
 
 
-- [Ohm's Law](ohms-law)
+
+### [Ohm's Law](https://en.wikipedia.org/wiki/Ohm%27s_law)
+[!][Ohm's Law Formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/ccb6636ea16861f62089604333e92855888f0db2)
+[!][Ohm's Law Formula](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ohm%27s_law_triangle.svg/1280px-Ohm%27s_law_triangle.svg.png)
+
+
+>Ohm's law states that the current through a conductor between two points is directly proportional to the voltage across the two points.
 
 Voltage = Resistance * Amperage 
 
