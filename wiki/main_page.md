@@ -2,12 +2,17 @@
 redirect_from: "/"
 ---
 
-# Welcome to sh-wiki
+# Welcome to SonicHowl-wiki
 *The Sonic Howl Knowledge Base / wiki*
-
 
 ## Pages Under Construction
 [Electronics](electronics)
+
+## Projects Requiring Students
+- Add items to the list 'Pages Needing to be Made'
+- Add a theme to this page! (Advanced) 
+- 
+
 
 ## Pages Needing to be Made
 [How a wiki works](how-our-wiki-works)  
