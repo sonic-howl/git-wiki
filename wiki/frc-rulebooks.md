@@ -22,6 +22,12 @@ This page has some useful links to where to find them.
    - Legal Motor Controller List
    - Legal Motor List
    - Legal MXP List
+   
+### Advanced Documentation
+##### [Field Management System Whitepaper](https://fms-manual.readthedocs.io/en/latest/fms-whitepaper/fms-whitepaper.html)
+   - How does the FIELD work?
+   - How does the ROBOT talk to the DRIVE STATION during matches?
+   - What does the FIELD NETWORK look like?
 
 ---
 
