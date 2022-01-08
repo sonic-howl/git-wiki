@@ -12,8 +12,7 @@ W3lc0m3B^Ck2022!
 [WIPLib yearly changelog 2022](https://docs.wpilib.org/en/stable/docs/yearly-overview/yearly-changelog.html)
 - Changes to Software
 
-[2021/2011 New Devices Overview/Preview( summary of changes preview )]
-(https://www.firstinspires.org/robotics/frc/blog/2021-2022-approved-devices-and-rules-preview)
+[2021/2011 New Devices Overview/Preview( summary of changes preview )](https://www.firstinspires.org/robotics/frc/blog/2021-2022-approved-devices-and-rules-preview)
 - New Electronics
 - Legal Motor Controller List
 - Legal Motor List
