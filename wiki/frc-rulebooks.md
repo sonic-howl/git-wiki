@@ -1,4 +1,4 @@
-## FRC Rulebooks & Etc
+## FRC Rulebooks & Guiding Resources
 
 To compete in FRC it is absolutely critical we understand and follow the rules!
 
@@ -13,6 +13,16 @@ This page has some useful links to where to find them.
 ##### [2022FRCGameManual.pdf](https://firstfrc.blob.core.windows.net/frc2022/Manual/2022FRCGameManual.pdf)
   - Password: W3lc0m3B^Ck2022!
 
+##### [First Robotics Official Control System Documentation](https://docs.wpilib.org/en/latest/docs/zero-to-robot/introduction.html)
+	- Zero To Robot - a Guide with everything you need to build an FRC robot
+    - Control Systems Overview
+    - Programming Basics
+    	- Java
+        - C++
+        - LabView
+    - API Docs ( Software Documentation )
+	- Software Tools
+    - Advanced Programming
 
 ##### [WIPLib yearly changelog 2022](https://docs.wpilib.org/en/stable/docs/yearly-overview/yearly-changelog.html)
    - Changes to Software
